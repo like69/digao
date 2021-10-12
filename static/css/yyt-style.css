@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.css-1xamfmm,
+[data-css-1xamfmm] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: rgba(0, 0, 0, 0.36);
+    position: absolute;
+    left: 88%;
+    top: 73%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    transform: scale;
+    border-radius: 50%;
+    visibility: visible;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+body {
+    background-color: #666;
+    overflow: hidden;
+}
+
+.back {
+    width: 1600px;
+    margin: 120px auto;
+}
+
+.b_back {
+    background: url(http://uu.tjsre.com:9191/images/wy/yuyuetu-bj.jpg) no-repeat;
+    position: relative;
+    height: 701px;
+}
+
+.b_time {
+    position: absolute;
+    top: 78px;
+    left: 70px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.b_time input {
+    width: 160px;
+    height: 28px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.b_inp {
+    position: absolute;
+    top: 220px;
+}
+
+.b_left {
+    width: 144px;
+    margin-left: 70px;
+}
+
+.b_right {
+    width: 144px;
+    margin-left: 336px;
+}
+
+.b_input {
+    color: white;
+    position: absolute;
+    top: 195px;
+    left: 270px;
+}
+
+.b_input li {
+    list-style: none;
+    line-height: 53px;
+}
+
+.b_input li input {
+    width: 286px;
+    height: 71px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 24px;
+}
+
+.photo {
+    width: 490px;
+    height: 320px;
+    position: absolute;
+    top: 210px;
+    right: 0;
+    left: 1060px;
+    bottom: 0
+}
+
+.photo div input {
+    width: 240px;
+    height: 320px;
+}
+
+.p_le {
+    float: left;
+    width: 49%;
+    /*  width: 240px; */
+    height: 320px;
+    border: 1px solid #6f7786;
+    background-size: cover;
+    position: relative;
+}
+
+.p_ri {
+    float: right;
+    width: 49%;
+    /*  width: 240px; */
+    height: 320px;
+    border: 1px solid #6f7786;
+    position: relative;
+}
+
+#p_lem {
+    width: 100%;
+    height: 320px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.p_left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+#p_rim {
+    width: 100%;
+    height: 320px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.p_right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}

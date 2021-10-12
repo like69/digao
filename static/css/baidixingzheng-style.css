@@ -1,0 +1,156 @@
+@font-face {
+    font-family: PingFangSC;
+    src: url(http://uu.tjsre.com:9191/font/FZSSJW.ttc);
+}
+
+body {
+    margin: 0px auto;
+    background-color: #2d2d2c;
+    overflow: hidden;
+}
+
+#capture {
+    width: 800px;
+    height: 1133px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.css-1xamfmm,
+[data-css-1xamfmm] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: rgba(0, 0, 0, 0.36);
+    position: absolute;
+    left: 76%;
+    top: 90%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    transform: scale;
+    border-radius: 50%;
+    visibility: visible;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+span,
+p,
+a {
+    font-family: PingFangSC;
+}
+
+body {
+    background-color: #858585;
+}
+
+body .container {
+    width: 800px;
+    height: 1133px;
+    background-image: url(http://uu.tjsre.com:9191/images/wy/baidixingzheng-bj.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: -122px auto;
+    padding: 45px;
+}
+
+.container_text {
+    font-size: 20px;
+    margin-top: 128px;
+    line-height: 25px;
+}
+
+.container .container_text .top_text p {
+    color: #000000;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.container .container_text .biaoti_text p {
+    color: #000000;
+    font-size: 18px;
+    margin-top: 32px;
+    font-weight: bold;
+    text-align: right;
+    letter-spacing: 2px;
+}
+
+.container .container_text .center_text p {
+    color: #000000;
+    font-size: 20px;
+    margin: 24px 0 20px 0;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+.container .container_text .bottom_text p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    text-indent: 42px;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+
+/* 
+.container .container_text .bottom_text p span {
+    color: #ff0000;
+    margin: 0 4px;
+} */
+
+
+/* 
+.container .container_text .top_text p,
+.container .container_text .center_text p,
+.container .container_text .bottom_text p {
+    color: #000000;
+}
+
+.container .container_text .top_text p span,
+.container .container_text .center_text p span,
+.container .container_text .bottom_text p span {
+    color: #f0caa7;
+}
+
+.container .container_text .center_text {
+    margin: 30px auto;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.container .container_text .bottom_text {
+    margin: 66px auto;
+    font-size: 21px;
+    line-height: 60px;
+}
+ */
+
+.c_text {
+    position: absolute;
+    left: 578px;
+    top: 1048px;
+    z-index: 98;
+}
+
+.c_text .c_time {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 1px;
+}

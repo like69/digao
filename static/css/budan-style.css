@@ -1,0 +1,176 @@
+@font-face {
+    font-family: PingFangSC;
+    src: url(http://uu.tjsre.com:9191/font/PingFangSC_1.ttf);
+}
+
+body {
+    margin: 0px auto;
+    background-color: #2d2d2c;
+    position: relative;
+    overflow: hidden;
+}
+
+#capture {
+    height: 900px;
+}
+
+#click,
+.click {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    z-index: 98;
+    left: 30px;
+    top: 90px;
+    z-index: -1;
+}
+
+#click div a img,
+.click div a img {
+    width: 24px;
+}
+
+#click div:last-child,
+.click div:last-child {
+    margin-top: 48px;
+}
+
+.css-1xamfmm,
+[data-css-1xamfmm] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: rgba(0, 0, 0, 0.36);
+    position: absolute;
+    left: 82%;
+    top: 90%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    transform: scale;
+    border-radius: 50%;
+    visibility: visible;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 9;
+}
+
+span,
+p,
+a {
+    font-family: PingFangSC;
+}
+
+body {
+    background-color: #000;
+}
+
+body .container {
+    width: 1600px;
+    height: 900px;
+    background-image: url(http://uu.tjsre.com:9191/images/wy/budan-bj.jpg);
+    background-size: 100% auto;
+    margin: 30px auto;
+    position: relative;
+    z-index: 3;
+}
+
+.c_text {
+    position: absolute;
+    top: 32px;
+    left: 462px;
+    z-index: -1;
+}
+
+.c_text .c_time {
+    font-size: 16px;
+    font-weight: 300;
+    color: #4a85fd;
+}
+
+.id_text {
+    position: absolute;
+    top: 162px;
+    left: 386px;
+}
+
+.id_text p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #25427e;
+}
+
+.tanchuangbj {
+    width: 1600px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+body .container .tanchuang {
+    width: 600px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+
+body .container .tanchuang .top {
+    width: 600px;
+    height: 48px;
+    background-color: #f8f8f8;
+}
+
+body .container .tanchuang .top span {
+    color: #4a85fd;
+    font-size: 18px;
+    line-height: 48px;
+    padding-left: 24px;
+}
+
+body .container .tanchuang .center {
+    width: 600px;
+    padding: 18px 24px 16px 24px;
+    color: #666666;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+body .container .tanchuang .center p:first-child {
+    color: #666666;
+    font-size: 18px;
+}
+
+body .container .tanchuang .center p:last-child {
+    margin-top: 12px;
+    color: #666666;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.32px;
+}
+
+body .container .tanchuang .bottom {
+    width: 600px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+body .container .tanchuang .bottom span {
+    padding: 4px 16px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #4a85fd;
+}
